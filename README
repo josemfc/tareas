@@ -1,0 +1,16 @@
+
+Pequeña aplicación web para gestionar tareas. Servidor realizado con nodeJS y front-end con HTML y JQuery. El archivo 'nodeTareas.js' es un cliente para el servidor desde terminal. Hecho con interfaz REST y AJAX.
+
+Uso del cliente en terminal:
+- Aniadir tarea
+node node-tareas.js a <nombre de la tarea>
+- Consultar tarea
+node node-tareas.js c <nombre de la tarea>
+- Modificar tarea
+node node-tareas.js m <nombre de la tarea>
+- Listar tareas
+node node-tareas.js l
+Si los argumentos son incorrectos, se muestra el uso correcto y se sale.
+
+Creado en Ubuntu 12.04 por: José María Fernádez Campos.
+

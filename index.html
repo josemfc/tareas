@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+		<title>Cliente manejador de tareas Ajax</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type='application/javascript' src='clienteTareas.js'></script>
+	</head>
+
+	<body>
+		<h1>Manejador de tareas</h1>
+
+		<p>Bienvenido al manejador de tareas de José María FC. Selecciona qué quieres hacer y el nombre de la tarea.</p>
+		<div id='formulario'>
+			<p><b>Opciones:</b><br>
+				<select id="opcion">
+					<option value="1">Listar todas las tareas existentes</option>
+					<option value="2">Añadir tarea</option>
+					<option value="3">Consultar tarea</option>
+					<option value="4">Marcar tarea como completada</option>
+				</select>
+			</p>
+
+			<p><b>Nombre de la tarea</b> (no necesario con "Listar"):<br>
+				<input type='text' name='nombre' id='nombre' size='10'><br>
+			</p>
+
+			<button id="adelante">¡Adelante!</button><br>
+		</div>
+
+		<hr>
+		<div><h2 id="Resultado"> </h2></div>
+	</body>
+</html>
+
+
